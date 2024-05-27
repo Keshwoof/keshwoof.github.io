@@ -48,6 +48,20 @@ details[ open ] > summary {
 	list-style-type: '[x] ';
 }
 
+.tag {
+	background-color: transparent;
+	border-color: var( --color-light );
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	color: var( --color-light );
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
 @media ( prefers-color-scheme: dark ) {
 
 	:root {
